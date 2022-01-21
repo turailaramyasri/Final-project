@@ -1,0 +1,1463 @@
+ramyasri@DESKTOP-007FPGI:~$ pwd
+/home/ramyasri
+ramyasri@DESKTOP-007FPGI:~$ ls
+ABCimpex   Abclmpet        abcd            bootcamp      file         input.sh       ramya.file    sys        usr
+ABclmpex   Abclmpex        add             bootcamp1     file1        intialHashmum  ramya.yml     temp       zing
+Abcd       Galaxyinfo.txt  allcontent.txt  decision.sh   file2        loop.sh        ramyasrirole  tempramya  zinginfor.txt
+Abcdopex   Hashmum         allperms.sh     def           file3        manu.txt       reading.sh    timjag
+Abcimplex  InitialZink     args.sh         efgh          ifelse.sh    nn_playbook    sample.yml    user
+Abcimplx   Zinginfor.txt   array           emptyfile.sh  initialZing  ramya          spcl.sh       user1
+ramyasri@DESKTOP-007FPGI:~$ cd tmp
+-bash: cd: tmp: No such file or directory
+ramyasri@DESKTOP-007FPGI:~$ cd temp
+ramyasri@DESKTOP-007FPGI:~/temp$ ls
+ramyasri@DESKTOP-007FPGI:~/temp$ cd ramya
+-bash: cd: ramya: No such file or directory
+ramyasri@DESKTOP-007FPGI:~/temp$ cd ramyasri
+-bash: cd: ramyasri: No such file or directory
+ramyasri@DESKTOP-007FPGI:~/temp$ cd ..
+ramyasri@DESKTOP-007FPGI:~$ mkdir usr
+mkdir: cannot create directory ‘usr’: File exists
+ramyasri@DESKTOP-007FPGI:~$ cd sys
+ramyasri@DESKTOP-007FPGI:~/sys$ ls
+ramyasri@DESKTOP-007FPGI:~/sys$ cd ..
+ramyasri@DESKTOP-007FPGI:~$ cd temp
+ramyasri@DESKTOP-007FPGI:~/temp$ mkdir -p foldr1/infoldr
+ramyasri@DESKTOP-007FPGI:~/temp$ ls
+foldr1
+ramyasri@DESKTOP-007FPGI:~/temp$ cd foldr1
+ramyasri@DESKTOP-007FPGI:~/temp/foldr1$ ls
+infoldr
+ramyasri@DESKTOP-007FPGI:~/temp/foldr1$ cd ..
+ramyasri@DESKTOP-007FPGI:~/temp$ pwd
+/home/ramyasri/temp
+ramyasri@DESKTOP-007FPGI:~/temp$ cd ..
+ramyasri@DESKTOP-007FPGI:~$ cat outputfile.txt
+cat: outputfile.txt: No such file or directory
+ramyasri@DESKTOP-007FPGI:~$ mkdir outputfile.txt
+ramyasri@DESKTOP-007FPGI:~$ cat outputfile.txt
+cat: outputfile.txt: Is a directory
+ramyasri@DESKTOP-007FPGI:~$ echo "Hello! welcome to linux session">mytext.txt
+ramyasri@DESKTOP-007FPGI:~$ cat mytext.txt
+Hello! welcome to linux session
+ramyasri@DESKTOP-007FPGI:~$ echo "now,we are appending the line">>mix.txt
+ramyasri@DESKTOP-007FPGI:~$ cat mix.txt
+now,we are appending the line
+ramyasri@DESKTOP-007FPGI:~$ cd temp
+ramyasri@DESKTOP-007FPGI:~/temp$ mv backupmytext.txt mytextBackup.txt
+mv: cannot stat 'backupmytext.txt': No such file or directory
+ramyasri@DESKTOP-007FPGI:~/temp$ cd ..
+ramyasri@DESKTOP-007FPGI:~$ mkdir backupmytext.txt
+ramyasri@DESKTOP-007FPGI:~$ cd temp
+ramyasri@DESKTOP-007FPGI:~/temp$ mv backupmytext.txt mytextBackup.txt
+mv: cannot stat 'backupmytext.txt': No such file or directory
+ramyasri@DESKTOP-007FPGI:~/temp$ whoami
+ramyasri
+ramyasri@DESKTOP-007FPGI:~/temp$ who
+ramyasri@DESKTOP-007FPGI:~/temp$ id
+uid=1000(ramyasri) gid=1000(ramyasri) groups=1000(ramyasri),4(adm),20(dialout),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev),117(netdev),1026(docker)
+ramyasri@DESKTOP-007FPGI:~/temp$ w
+ 11:17:52 up  1:42,  0 users,  load average: 4.20, 4.16, 4.21
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+ramyasri@DESKTOP-007FPGI:~/temp$ passwd
+Changing password for ramyasri.
+Current password:
+passwd: Authentication token manipulation error
+passwd: password unchanged
+ramyasri@DESKTOP-007FPGI:~/temp$ passwd
+Changing password for ramyasri.
+Current password:
+passwd: Authentication token manipulation error
+passwd: password unchanged
+ramyasri@DESKTOP-007FPGI:~/temp$ passwd
+Changing password for ramyasri.
+Current password:
+passwd: Authentication token manipulation error
+passwd: password unchanged
+ramyasri@DESKTOP-007FPGI:~/temp$ man man
+ramyasri@DESKTOP-007FPGI:~/temp$ cd /
+ramyasri@DESKTOP-007FPGI:/$ ls
+bin   bootcamp           dev  home  lib    lib64   lost+found  mnt  proc  run   snap  sys  usr
+boot  crossdistroFfFNHl  etc  init  lib32  libx32  media       opt  root  sbin  srv   tmp  var
+ramyasri@DESKTOP-007FPGI:/$ cat etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+systemd-timesync:x:102:104:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:103:106::/nonexistent:/usr/sbin/nologin
+syslog:x:104:110::/home/syslog:/usr/sbin/nologin
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+tss:x:106:111:TPM software stack,,,:/var/lib/tpm:/bin/false
+uuidd:x:107:112::/run/uuidd:/usr/sbin/nologin
+tcpdump:x:108:113::/nonexistent:/usr/sbin/nologin
+sshd:x:109:65534::/run/sshd:/usr/sbin/nologin
+landscape:x:110:115::/var/lib/landscape:/usr/sbin/nologin
+pollinate:x:111:1::/var/cache/pollinate:/bin/false
+ramyasri:x:1000:1000:,,,:/home/ramyasri:/bin/bash
+manu:x:1001:1001::/home/manu:/bin/sh
+rama:x:1002:1002::/home/rama:/bin/sh
+nethra:x:1003:1003::/home/nethra:/bin/sh
+hima:x:1004:1004::/home/hima:/bin/sh
+mounica:x:1005:1005::/home/mounica:/bin/sh
+ramya:x:1006:1006::/home/ramya:/bin/sh
+sri:x:1007:1007::/home/sri:/bin/sh
+bhavi:x:1008:1008::/home/bhavi:/bin/sh
+nani:x:1009:1009::/home/nani:/bin/sh
+anu:x:1010:1010::/home/anu:/bin/sh
+rajitha:x:1011:1011::/home/rajitha:/bin/sh
+pravalika:x:1012:1012::/home/pravalika:/bin/sh
+shiva:x:1013:1013::/home/shiva:/bin/sh
+eshu:x:1014:1014:,,,:/home/eshu:/bin/bash
+yashu:x:1015:1015:,,,:/home/yashu:/bin/bash
+siri:x:1016:1016:,,,:/home/siri:/bin/bash
+soju:x:1017:1017:,,,:/home/soju:/bin/bash
+jogdir:x:1018:1018:,,,:/home/jogdir:/bin/bash
+shiv:x:1019:1019:,,,:/home/shiv:/bin/bash
+sam:x:1020:1020:,,,:/home/sam:/bin/bash
+sandy:x:1021:1021:,,,:/home/sandy:/bin/bash
+bootcamp:x:1022:1023:,,,:/home/bootcamp:/bin/bash
+user:x:1023:1024:,,,:/home/user:/bin/bash
+suku:x:1024:1027:,,,:/home/suku:/bin/bash
+sush:x:1025:1028:,,,:/home/sush:/bin/bash
+user1:x:1026:1029::/home/user1:/bin/sh
+user2:x:1027:1030::/home/user2:/bin/sh
+sample1:x:1028:1031:,,,:/home/sample1:/bin/bash
+sample2:x:1029:1032:,,,:/home/sample2:/bin/bash
+txt:x:1030:1033:,,,:/home/txt:/bin/bash
+new:x:1031:1034:,,,:/home/new:/bin/bash
+_rpc:x:112:65534::/run/rpcbind:/usr/sbin/nologin
+statd:x:113:65534::/var/lib/nfs:/usr/sbin/nologin
+ramyasri@DESKTOP-007FPGI:/$ sudo useradd muna
+[sudo] password for ramyasri:
+Sorry, try again.
+[sudo] password for ramyasri:
+Sorry, try again.
+[sudo] password for ramyasri:
+sudo: 3 incorrect password attempts
+ramyasri@DESKTOP-007FPGI:/$ sudo useradd muna
+[sudo] password for ramyasri:
+Sorry, try again.
+[sudo] password for ramyasri:
+Sorry, try again.
+[sudo] password for ramyasri:
+sudo: 3 incorrect password attempts
+ramyasri@DESKTOP-007FPGI:/$ pwd
+/
+ramyasri@DESKTOP-007FPGI:/$ cd ..
+ramyasri@DESKTOP-007FPGI:/$ ls
+bin   bootcamp           dev  home  lib    lib64   lost+found  mnt  proc  run   snap  sys  usr
+boot  crossdistroFfFNHl  etc  init  lib32  libx32  media       opt  root  sbin  srv   tmp  var
+ramyasri@DESKTOP-007FPGI:/$ cd /
+ramyasri@DESKTOP-007FPGI:/$ cd ..
+ramyasri@DESKTOP-007FPGI:/$ pwd
+/
+ramyasri@DESKTOP-007FPGI:/$ cd
+ramyasri@DESKTOP-007FPGI:~$ cat /etc/group
+root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,ramyasri
+tty:x:5:syslog
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:ramyasri
+fax:x:21:
+voice:x:22:
+cdrom:x:24:ramyasri
+floppy:x:25:ramyasri
+tape:x:26:
+sudo:x:27:ramyasri
+audio:x:29:ramyasri
+dip:x:30:ramyasri
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+gnats:x:41:
+shadow:x:42:
+utmp:x:43:
+video:x:44:ramyasri
+sasl:x:45:
+plugdev:x:46:ramyasri
+staff:x:50:
+games:x:60:
+users:x:100:
+nogroup:x:65534:
+systemd-journal:x:101:
+systemd-network:x:102:
+systemd-resolve:x:103:
+systemd-timesync:x:104:
+crontab:x:105:
+messagebus:x:106:
+input:x:107:
+kvm:x:108:
+render:x:109:
+syslog:x:110:
+tss:x:111:
+uuidd:x:112:
+tcpdump:x:113:
+ssh:x:114:
+landscape:x:115:
+admin:x:116:
+netdev:x:117:ramyasri
+lxd:x:118:
+ramyasri:x:1000:
+manu:x:1001:
+rama:x:1002:
+nethra:x:1003:
+hima:x:1004:
+mounica:x:1005:
+ramya:x:1006:
+sri:x:1007:
+bhavi:x:1008:
+nani:x:1009:
+anu:x:1010:
+rajitha:x:1011:
+pravalika:x:1012:
+shiva:x:1013:
+eshu:x:1014:
+yashu:x:1015:
+siri:x:1016:
+soju:x:1017:
+jogdir:x:1018:
+shiv:x:1019:
+sam:x:1020:
+sandy:x:1021:
+develops:x:1022:
+bootcamp:x:1023:
+user:x:1024:
+devops:x:1025:
+docker:x:1026:ramyasri
+suku:x:1027:
+sush:x:1028:
+user1:x:1029:
+user2:x:1030:
+sample1:x:1031:
+sample2:x:1032:
+txt:x:1033:
+new:x:1034:
+training:x:1035:
+ramyasri@DESKTOP-007FPGI:~$ groupadd
+Usage: groupadd [options] GROUP
+
+Options:
+  -f, --force                   exit successfully if the group already exists,
+                                and cancel -g if the GID is already used
+  -g, --gid GID                 use GID for the new group
+  -h, --help                    display this help message and exit
+  -K, --key KEY=VALUE           override /etc/login.defs defaults
+  -o, --non-unique              allow to create groups with duplicate
+                                (non-unique) GID
+  -p, --password PASSWORD       use this encrypted password for the new group
+  -r, --system                  create a system account
+  -R, --root CHROOT_DIR         directory to chroot into
+  -P, --prefix PREFIX_DIR       directory prefix
+      --extrausers              Use the extra users database
+
+ramyasri@DESKTOP-007FPGI:~$ groupmod
+Usage: groupmod [options] GROUP
+
+Options:
+  -g, --gid GID                 change the group ID to GID
+  -h, --help                    display this help message and exit
+  -n, --new-name NEW_GROUP      change the name to NEW_GROUP
+  -o, --non-unique              allow to use a duplicate (non-unique) GID
+  -p, --password PASSWORD       change the password to this (encrypted)
+                                PASSWORD
+  -R, --root CHROOT_DIR         directory to chroot into
+  -P, --prefix PREFIX_DIR       prefix directory where are located the /etc/* files
+
+ramyasri@DESKTOP-007FPGI:~$ usermod
+Usage: usermod [options] LOGIN
+
+Options:
+  -b, --badnames                allow bad names
+  -c, --comment COMMENT         new value of the GECOS field
+  -d, --home HOME_DIR           new home directory for the user account
+  -e, --expiredate EXPIRE_DATE  set account expiration date to EXPIRE_DATE
+  -f, --inactive INACTIVE       set password inactive after expiration
+                                to INACTIVE
+  -g, --gid GROUP               force use GROUP as new primary group
+  -G, --groups GROUPS           new list of supplementary GROUPS
+  -a, --append                  append the user to the supplemental GROUPS
+                                mentioned by the -G option without removing
+                                the user from other groups
+  -h, --help                    display this help message and exit
+  -l, --login NEW_LOGIN         new value of the login name
+  -L, --lock                    lock the user account
+  -m, --move-home               move contents of the home directory to the
+                                new location (use only with -d)
+  -o, --non-unique              allow using duplicate (non-unique) UID
+  -p, --password PASSWORD       use encrypted password for the new password
+  -R, --root CHROOT_DIR         directory to chroot into
+  -P, --prefix PREFIX_DIR       prefix directory where are located the /etc/* files
+  -s, --shell SHELL             new login shell for the user account
+  -u, --uid UID                 new UID for the user account
+  -U, --unlock                  unlock the user account
+  -v, --add-subuids FIRST-LAST  add range of subordinate uids
+  -V, --del-subuids FIRST-LAST  remove range of subordinate uids
+  -w, --add-subgids FIRST-LAST  add range of subordinate gids
+  -W, --del-subgids FIRST-LAST  remove range of subordinate gids
+  -Z, --selinux-user SEUSER     new SELinux user mapping for the user account
+
+ramyasri@DESKTOP-007FPGI:~$ sudo groupadd training
+[sudo] password for ramyasri:
+Sorry, try again.
+[sudo] password for ramyasri:
+Sorry, try again.
+[sudo] password for ramyasri:
+sudo: 3 incorrect password attempts
+ramyasri@DESKTOP-007FPGI:~$ ls
+ABCimpex   Abclmpex        allcontent.txt    decision.sh   file3          mix.txt         ramyasrirole  timjag
+ABclmpex   Galaxyinfo.txt  allperms.sh       def           ifelse.sh      mytext.txt      reading.sh    user
+Abcd       Hashmum         args.sh           efgh          initialZing    nn_playbook     sample.yml    user1
+Abcdopex   InitialZink     array             emptyfile.sh  input.sh       outputfile.txt  spcl.sh       usr
+Abcimplex  Zinginfor.txt   backupmytext.txt  file          intialHashmum  ramya           sys           zing
+Abcimplx   abcd            bootcamp          file1         loop.sh        ramya.file      temp          zinginfor.txt
+Abclmpet   add             bootcamp1         file2         manu.txt       ramya.yml       tempramya
+ramyasri@DESKTOP-007FPGI:~$ ls -i
+96807 ABCimpex        97153 InitialZink       96913 bootcamp1     97149 initialZing     40740 ramya.file    18002 user
+40738 ABclmpex        97151 Zinginfor.txt      2752 decision.sh   96852 input.sh        18205 ramya.yml     18061 user1
+96804 Abcd            96815 abcd              96833 def           18094 intialHashmum   18170 ramyasrirole  17974 usr
+40732 Abcdopex        18070 add               18111 efgh          18127 loop.sh          1886 reading.sh    97133 zing
+96809 Abcimplex       96840 allcontent.txt    40677 emptyfile.sh  96841 manu.txt        18206 sample.yml    97150 zinginfor.txt
+96808 Abcimplx        96915 allperms.sh       18112 file          18377 mix.txt          1887 spcl.sh
+40747 Abclmpet        96851 args.sh           18071 file1         18375 mytext.txt      18116 sys
+  774 Abclmpex        18130 array             17999 file2         37423 nn_playbook     40742 temp
+96805 Galaxyinfo.txt  18384 backupmytext.txt  18069 file3         18223 outputfile.txt  40746 tempramya
+17975 Hashmum         96862 bootcamp          96853 ifelse.sh     37325 ramya           96806 timjag
+ramyasri@DESKTOP-007FPGI:~$ ls -il
+total 204
+96807 drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 17 15:48 ABCimpex
+40738 drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 17 15:10 ABclmpex
+96804 drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 17 13:49 Abcd
+40732 drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 17 14:49 Abcdopex
+96809 drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 17 15:53 Abcimplex
+96808 drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 17 15:49 Abcimplx
+40747 drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 17 15:45 Abclmpet
+  774 drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 17 12:36 Abclmpex
+96805 drwxr-xr-x  4 ramyasri ramyasri 4096 Dec 17 18:22 Galaxyinfo.txt
+17975 drwxr-xr-x  3 ramyasri ramyasri 4096 Jan  5 16:41 Hashmum
+97153 drwxrwxr-x  2 ramyasri ramyasri 4096 Dec 28 17:51 InitialZink
+97151 -rw-rw-r--  1 ramyasri ramyasri   63 Dec 28 17:09 Zinginfor.txt
+96815 drwxr-xr-x  3 ramyasri ramyasri 4096 Dec 17 16:08 abcd
+18070 -rw-r--r--  1 ramyasri ramyasri   43 Jan  3 13:44 add
+96840 drwxrwxr-x  2 ramyasri ramyasri 4096 Dec 17 18:04 allcontent.txt
+96915 -rw-r--r--  1 root     root       40 Dec 20 17:06 allperms.sh
+96851 -rwxr-xr-x  1 ramyasri ramyasri   65 Dec 20 16:48 args.sh
+18130 -rw-r--r--  1 ramyasri ramyasri  163 Jan  8 13:53 array
+18384 drwxr-xr-x  2 ramyasri ramyasri 4096 Jan 20 11:16 backupmytext.txt
+96862 drwxr-xr-x  3 ramyasri ramyasri 4096 Dec 20 15:05 bootcamp
+96913 drwxrwxr-x  2 ramyasri ramyasri 4096 Dec 20 16:59 bootcamp1
+ 2752 -rwxrwxr--  1 ramyasri ramyasri  137 Jan  8 12:50 decision.sh
+96833 drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 20 14:18 def
+18111 drwxrwxr-x  2 ramyasri ramyasri 4096 Jan  7 15:50 efgh
+40677 drwxrwxr-x  2 ramyasri devops   4096 Dec 20 17:04 emptyfile.sh
+18112 -rw-rw-r--  1 ramyasri ramyasri   43 Jan  7 15:48 file
+18071 -rw-r--r--  1 ramyasri ramyasri    0 Jan  3 13:46 file1
+17999 -rw-r--r--  1 ramyasri ramyasri   21 Jan  3 13:46 file2
+18069 -rw-r--r--  1 ramyasri ramyasri   43 Jan  3 13:46 file3
+96853 -rwxrwxr--  1 ramyasri ramyasri   96 Dec 20 16:54 ifelse.sh
+97149 drwxrwxr-x  2 ramyasri ramyasri 4096 Dec 28 16:56 initialZing
+96852 -rw-r--r--  1 ramyasri ramyasri  127 Dec 20 16:50 input.sh
+18094 drwxrwxr-x  2 ramyasri ramyasri 4096 Jan  5 16:48 intialHashmum
+18127 -rw-r--r--  1 ramyasri ramyasri   98 Jan  8 13:48 loop.sh
+96841 -rw-rw-r--  1 ramyasri ramyasri    0 Dec 17 18:09 manu.txt
+18377 -rw-r--r--  1 ramyasri ramyasri   30 Jan 20 11:14 mix.txt
+18375 -rw-r--r--  1 ramyasri ramyasri   32 Jan 20 11:10 mytext.txt
+37423 drwxr-xr-x  3 ramyasri ramyasri 4096 Dec 16 19:46 nn_playbook
+18223 drwxr-xr-x  2 ramyasri ramyasri 4096 Jan 20 11:08 outputfile.txt
+37325 drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 16 19:36 ramya
+40740 drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 17 15:19 ramya.file
+18205 -rw-r--r--  1 ramyasri ramyasri   69 Jan  8 14:39 ramya.yml
+18170 drwxr-xr-x 10 ramyasri ramyasri 4096 Jan  8 14:18 ramyasrirole
+ 1886 -rwxr-xr-x  1 ramyasri ramyasri   47 Jan  8 12:42 reading.sh
+18206 -rw-r--r--  1 ramyasri ramyasri   88 Jan  8 14:41 sample.yml
+ 1887 -rw-r--r--  1 ramyasri ramyasri  247 Jan  8 13:45 spcl.sh
+18116 drwxr-xr-x  2 ramyasri ramyasri 4096 Jan  7 19:17 sys
+40742 drwxr-xr-x  3 ramyasri ramyasri 4096 Jan 20 11:05 temp
+40746 drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 17 15:41 tempramya
+96806 drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 18 18:01 timjag
+18002 -rw-r--r--  1 ramyasri ramyasri    0 Jan  3 13:33 user
+18061 -rw-r--r--  1 ramyasri ramyasri    0 Jan  3 13:33 user1
+17974 drwxr-xr-x  2 ramyasri ramyasri 4096 Jan  7 19:11 usr
+97133 drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 28 16:51 zing
+97150 drwxrwxr-x  3 ramyasri ramyasri 4096 Dec 28 17:32 zinginfor.txt
+ramyasri@DESKTOP-007FPGI:~$ pwd
+/home/ramyasri
+ramyasri@DESKTOP-007FPGI:~$ ls
+ABCimpex   Abclmpex        allcontent.txt    decision.sh   file3          mix.txt         ramyasrirole  timjag
+ABclmpex   Galaxyinfo.txt  allperms.sh       def           ifelse.sh      mytext.txt      reading.sh    user
+Abcd       Hashmum         args.sh           efgh          initialZing    nn_playbook     sample.yml    user1
+Abcdopex   InitialZink     array             emptyfile.sh  input.sh       outputfile.txt  spcl.sh       usr
+Abcimplex  Zinginfor.txt   backupmytext.txt  file          intialHashmum  ramya           sys           zing
+Abcimplx   abcd            bootcamp          file1         loop.sh        ramya.file      temp          zinginfor.txt
+Abclmpet   add             bootcamp1         file2         manu.txt       ramya.yml       tempramya
+ramyasri@DESKTOP-007FPGI:~$ file fsam.txt
+fsam.txt: cannot open `fsam.txt' (No such file or directory)
+ramyasri@DESKTOP-007FPGI:~$ ls -a
+.              .git                       ABCimpex        InitialZink       bootcamp1     initialZing     ramya.file    user
+..             .gitconfig                 ABclmpex        Zinginfor.txt     decision.sh   input.sh        ramya.yml     user1
+.ansible       .kube                      Abcd            abcd              def           intialHashmum   ramyasrirole  usr
+.aws           .landscape                 Abcdopex        add               efgh          loop.sh         reading.sh    zing
+.azure         .local                     Abcimplex       allcontent.txt    emptyfile.sh  manu.txt        sample.yml    zinginfor.txt
+.bash_history  .motd_shown                Abcimplx        allperms.sh       file          mix.txt         spcl.sh
+.bash_logout   .profile                   Abclmpet        args.sh           file1         mytext.txt      sys
+.bashrc        .python_history            Abclmpex        array             file2         nn_playbook     temp
+.config        .python_history-00024.tmp  Galaxyinfo.txt  backupmytext.txt  file3         outputfile.txt  tempramya
+.docker        .sudo_as_admin_successful  Hashmum         bootcamp          ifelse.sh     ramya           timjag
+ramyasri@DESKTOP-007FPGI:~$ ls -l
+total 204
+drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 17 15:48 ABCimpex
+drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 17 15:10 ABclmpex
+drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 17 13:49 Abcd
+drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 17 14:49 Abcdopex
+drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 17 15:53 Abcimplex
+drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 17 15:49 Abcimplx
+drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 17 15:45 Abclmpet
+drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 17 12:36 Abclmpex
+drwxr-xr-x  4 ramyasri ramyasri 4096 Dec 17 18:22 Galaxyinfo.txt
+drwxr-xr-x  3 ramyasri ramyasri 4096 Jan  5 16:41 Hashmum
+drwxrwxr-x  2 ramyasri ramyasri 4096 Dec 28 17:51 InitialZink
+-rw-rw-r--  1 ramyasri ramyasri   63 Dec 28 17:09 Zinginfor.txt
+drwxr-xr-x  3 ramyasri ramyasri 4096 Dec 17 16:08 abcd
+-rw-r--r--  1 ramyasri ramyasri   43 Jan  3 13:44 add
+drwxrwxr-x  2 ramyasri ramyasri 4096 Dec 17 18:04 allcontent.txt
+-rw-r--r--  1 root     root       40 Dec 20 17:06 allperms.sh
+-rwxr-xr-x  1 ramyasri ramyasri   65 Dec 20 16:48 args.sh
+-rw-r--r--  1 ramyasri ramyasri  163 Jan  8 13:53 array
+drwxr-xr-x  2 ramyasri ramyasri 4096 Jan 20 11:16 backupmytext.txt
+drwxr-xr-x  3 ramyasri ramyasri 4096 Dec 20 15:05 bootcamp
+drwxrwxr-x  2 ramyasri ramyasri 4096 Dec 20 16:59 bootcamp1
+-rwxrwxr--  1 ramyasri ramyasri  137 Jan  8 12:50 decision.sh
+drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 20 14:18 def
+drwxrwxr-x  2 ramyasri ramyasri 4096 Jan  7 15:50 efgh
+drwxrwxr-x  2 ramyasri devops   4096 Dec 20 17:04 emptyfile.sh
+-rw-rw-r--  1 ramyasri ramyasri   43 Jan  7 15:48 file
+-rw-r--r--  1 ramyasri ramyasri    0 Jan  3 13:46 file1
+-rw-r--r--  1 ramyasri ramyasri   21 Jan  3 13:46 file2
+-rw-r--r--  1 ramyasri ramyasri   43 Jan  3 13:46 file3
+-rwxrwxr--  1 ramyasri ramyasri   96 Dec 20 16:54 ifelse.sh
+drwxrwxr-x  2 ramyasri ramyasri 4096 Dec 28 16:56 initialZing
+-rw-r--r--  1 ramyasri ramyasri  127 Dec 20 16:50 input.sh
+drwxrwxr-x  2 ramyasri ramyasri 4096 Jan  5 16:48 intialHashmum
+-rw-r--r--  1 ramyasri ramyasri   98 Jan  8 13:48 loop.sh
+-rw-rw-r--  1 ramyasri ramyasri    0 Dec 17 18:09 manu.txt
+-rw-r--r--  1 ramyasri ramyasri   30 Jan 20 11:14 mix.txt
+-rw-r--r--  1 ramyasri ramyasri   32 Jan 20 11:10 mytext.txt
+drwxr-xr-x  3 ramyasri ramyasri 4096 Dec 16 19:46 nn_playbook
+drwxr-xr-x  2 ramyasri ramyasri 4096 Jan 20 11:08 outputfile.txt
+drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 16 19:36 ramya
+drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 17 15:19 ramya.file
+-rw-r--r--  1 ramyasri ramyasri   69 Jan  8 14:39 ramya.yml
+drwxr-xr-x 10 ramyasri ramyasri 4096 Jan  8 14:18 ramyasrirole
+-rwxr-xr-x  1 ramyasri ramyasri   47 Jan  8 12:42 reading.sh
+-rw-r--r--  1 ramyasri ramyasri   88 Jan  8 14:41 sample.yml
+-rw-r--r--  1 ramyasri ramyasri  247 Jan  8 13:45 spcl.sh
+drwxr-xr-x  2 ramyasri ramyasri 4096 Jan  7 19:17 sys
+drwxr-xr-x  3 ramyasri ramyasri 4096 Jan 20 11:05 temp
+drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 17 15:41 tempramya
+drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 18 18:01 timjag
+-rw-r--r--  1 ramyasri ramyasri    0 Jan  3 13:33 user
+-rw-r--r--  1 ramyasri ramyasri    0 Jan  3 13:33 user1
+drwxr-xr-x  2 ramyasri ramyasri 4096 Jan  7 19:11 usr
+drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 28 16:51 zing
+drwxrwxr-x  3 ramyasri ramyasri 4096 Dec 28 17:32 zinginfor.txt
+ramyasri@DESKTOP-007FPGI:~$ ls -l
+total 204
+drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 17 15:48 ABCimpex
+drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 17 15:10 ABclmpex
+drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 17 13:49 Abcd
+drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 17 14:49 Abcdopex
+drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 17 15:53 Abcimplex
+drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 17 15:49 Abcimplx
+drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 17 15:45 Abclmpet
+drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 17 12:36 Abclmpex
+drwxr-xr-x  4 ramyasri ramyasri 4096 Dec 17 18:22 Galaxyinfo.txt
+drwxr-xr-x  3 ramyasri ramyasri 4096 Jan  5 16:41 Hashmum
+drwxrwxr-x  2 ramyasri ramyasri 4096 Dec 28 17:51 InitialZink
+-rw-rw-r--  1 ramyasri ramyasri   63 Dec 28 17:09 Zinginfor.txt
+drwxr-xr-x  3 ramyasri ramyasri 4096 Dec 17 16:08 abcd
+-rw-r--r--  1 ramyasri ramyasri   43 Jan  3 13:44 add
+drwxrwxr-x  2 ramyasri ramyasri 4096 Dec 17 18:04 allcontent.txt
+-rw-r--r--  1 root     root       40 Dec 20 17:06 allperms.sh
+-rwxr-xr-x  1 ramyasri ramyasri   65 Dec 20 16:48 args.sh
+-rw-r--r--  1 ramyasri ramyasri  163 Jan  8 13:53 array
+drwxr-xr-x  2 ramyasri ramyasri 4096 Jan 20 11:16 backupmytext.txt
+drwxr-xr-x  3 ramyasri ramyasri 4096 Dec 20 15:05 bootcamp
+drwxrwxr-x  2 ramyasri ramyasri 4096 Dec 20 16:59 bootcamp1
+-rwxrwxr--  1 ramyasri ramyasri  137 Jan  8 12:50 decision.sh
+drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 20 14:18 def
+drwxrwxr-x  2 ramyasri ramyasri 4096 Jan  7 15:50 efgh
+drwxrwxr-x  2 ramyasri devops   4096 Dec 20 17:04 emptyfile.sh
+-rw-rw-r--  1 ramyasri ramyasri   43 Jan  7 15:48 file
+-rw-r--r--  1 ramyasri ramyasri    0 Jan  3 13:46 file1
+-rw-r--r--  1 ramyasri ramyasri   21 Jan  3 13:46 file2
+-rw-r--r--  1 ramyasri ramyasri   43 Jan  3 13:46 file3
+-rwxrwxr--  1 ramyasri ramyasri   96 Dec 20 16:54 ifelse.sh
+drwxrwxr-x  2 ramyasri ramyasri 4096 Dec 28 16:56 initialZing
+-rw-r--r--  1 ramyasri ramyasri  127 Dec 20 16:50 input.sh
+drwxrwxr-x  2 ramyasri ramyasri 4096 Jan  5 16:48 intialHashmum
+-rw-r--r--  1 ramyasri ramyasri   98 Jan  8 13:48 loop.sh
+-rw-rw-r--  1 ramyasri ramyasri    0 Dec 17 18:09 manu.txt
+-rw-r--r--  1 ramyasri ramyasri   30 Jan 20 11:14 mix.txt
+-rw-r--r--  1 ramyasri ramyasri   32 Jan 20 11:10 mytext.txt
+drwxr-xr-x  3 ramyasri ramyasri 4096 Dec 16 19:46 nn_playbook
+drwxr-xr-x  2 ramyasri ramyasri 4096 Jan 20 11:08 outputfile.txt
+drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 16 19:36 ramya
+drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 17 15:19 ramya.file
+-rw-r--r--  1 ramyasri ramyasri   69 Jan  8 14:39 ramya.yml
+drwxr-xr-x 10 ramyasri ramyasri 4096 Jan  8 14:18 ramyasrirole
+-rwxr-xr-x  1 ramyasri ramyasri   47 Jan  8 12:42 reading.sh
+-rw-r--r--  1 ramyasri ramyasri   88 Jan  8 14:41 sample.yml
+-rw-r--r--  1 ramyasri ramyasri  247 Jan  8 13:45 spcl.sh
+drwxr-xr-x  2 ramyasri ramyasri 4096 Jan  7 19:17 sys
+drwxr-xr-x  3 ramyasri ramyasri 4096 Jan 20 11:05 temp
+drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 17 15:41 tempramya
+drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 18 18:01 timjag
+-rw-r--r--  1 ramyasri ramyasri    0 Jan  3 13:33 user
+-rw-r--r--  1 ramyasri ramyasri    0 Jan  3 13:33 user1
+drwxr-xr-x  2 ramyasri ramyasri 4096 Jan  7 19:11 usr
+drwxr-xr-x  2 ramyasri ramyasri 4096 Dec 28 16:51 zing
+drwxrwxr-x  3 ramyasri ramyasri 4096 Dec 28 17:32 zinginfor.txt
+ramyasri@DESKTOP-007FPGI:~$ ls -alh|grep temp
+drwxr-xr-x  3 ramyasri ramyasri 4.0K Jan 20 11:05 temp
+drwxr-xr-x  2 ramyasri ramyasri 4.0K Dec 17 15:41 tempramya
+ramyasri@DESKTOP-007FPGI:~$ touch myemptfile
+ramyasri@DESKTOP-007FPGI:~$ ls
+ABCimpex   Abclmpex        allcontent.txt    decision.sh   file3          mix.txt         ramya.yml     tempramya
+ABclmpex   Galaxyinfo.txt  allperms.sh       def           ifelse.sh      myemptfile      ramyasrirole  timjag
+Abcd       Hashmum         args.sh           efgh          initialZing    mytext.txt      reading.sh    user
+Abcdopex   InitialZink     array             emptyfile.sh  input.sh       nn_playbook     sample.yml    user1
+Abcimplex  Zinginfor.txt   backupmytext.txt  file          intialHashmum  outputfile.txt  spcl.sh       usr
+Abcimplx   abcd            bootcamp          file1         loop.sh        ramya           sys           zing
+Abclmpet   add             bootcamp1         file2         manu.txt       ramya.file      temp          zinginfor.txt
+ramyasri@DESKTOP-007FPGI:~$ cat myemptfile
+ramyasri@DESKTOP-007FPGI:~$ ls -alh myemptfile
+-rw-r--r-- 1 ramyasri ramyasri 0 Jan 20 12:11 myemptfile
+ramyasri@DESKTOP-007FPGI:~$ nano ramya.txt
+ramyasri@DESKTOP-007FPGI:~$ rm --ramya.txt
+rm: unrecognized option '--ramya.txt'
+Try 'rm --help' for more information.
+ramyasri@DESKTOP-007FPGI:~$ cat ramya.txt
+fsam.txt
+hifi.txt
+temp
+tempy
+
+ramyasri@DESKTOP-007FPGI:~$ ls
+ABCimpex   Abclmpex        allcontent.txt    decision.sh   file3          mix.txt         ramya.txt     temp       zinginfor.txt
+ABclmpex   Galaxyinfo.txt  allperms.sh       def           ifelse.sh      myemptfile      ramya.yml     tempramya
+Abcd       Hashmum         args.sh           efgh          initialZing    mytext.txt      ramyasrirole  timjag
+Abcdopex   InitialZink     array             emptyfile.sh  input.sh       nn_playbook     reading.sh    user
+Abcimplex  Zinginfor.txt   backupmytext.txt  file          intialHashmum  outputfile.txt  sample.yml    user1
+Abcimplx   abcd            bootcamp          file1         loop.sh        ramya           spcl.sh       usr
+Abclmpet   add             bootcamp1         file2         manu.txt       ramya.file      sys           zing
+ramyasri@DESKTOP-007FPGI:~$ find.-name*.txt
+find.-name*.txt: command not found
+ramyasri@DESKTOP-007FPGI:~$ find.-ramya*.txt
+find.-ramya*.txt: command not found
+ramyasri@DESKTOP-007FPGI:~$ free
+              total        used        free      shared  buff/cache   available
+Mem:        6298032     1509916     1822896      378500     2965220     4163332
+Swap:       2097152           0     2097152
+ramyasri@DESKTOP-007FPGI:~$ uptime
+ 12:19:42 up  2:44,  0 users,  load average: 4.12, 3.87, 3.86
+ramyasri@DESKTOP-007FPGI:~$ sudo apt install nmap
+[sudo] password for ramyasri:
+Sorry, try again.
+[sudo] password for ramyasri:
+Sorry, try again.
+[sudo] password for ramyasri:
+sudo: 3 incorrect password attempts
+ramyasri@DESKTOP-007FPGI:~$ sudo apt remove nmap
+[sudo] password for ramyasri:
+Sorry, try again.
+[sudo] password for ramyasri:
+Sorry, try again.
+[sudo] password for ramyasri:
+sudo: 3 incorrect password attempts
+ramyasri@DESKTOP-007FPGI:~$ sudo apt update
+[sudo] password for ramyasri:
+Sorry, try again.
+[sudo] password for ramyasri:
+Sorry, try again.
+[sudo] password for ramyasri:
+sudo: 3 incorrect password attempts
+ramyasri@DESKTOP-007FPGI:~$ python3
+Python 3.8.10 (default, Jun  2 2021, 10:49:15)
+[GCC 9.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> "hello!"
+'hello!'
+>>> 12+45
+57
+>>> 45-23
+22
+>>> 20*7
+140
+>>> 245/6
+40.833333333333336
+>>> 245//6
+40
+>>> 234%7
+3
+>>> name=
+
+^[[A^[[A  File "<stdin>", line 1
+    name=
+        ^
+SyntaxError: invalid syntax
+>>>
+>>> name="ramyasri"
+>>> no=123
+>>> city="warangal"
+>>> print("name is"+name+"city:"+city
+...
+...
+...
+... city="warangal"
+  File "<stdin>", line 5
+    city="warangal"
+    ^
+SyntaxError: invalid syntax
+>>> name="ramyasri"
+>>> no=123
+>>> city="warangal"
+>>> print("name is"+name+"city:"+city+"and no:"+str(no))
+name isramyasricity:warangaland no:123
+>>> if(no<10):
+... print('single digit no'+str(no))
+  File "<stdin>", line 2
+    print('single digit no'+str(no))
+    ^
+IndentationError: expected an indented block
+>>> if(no<10):
+... print('single digit no'+str(no))
+  File "<stdin>", line 2
+    print('single digit no'+str(no))
+    ^
+IndentationError: expected an indented block
+>>> if(no<10):
+...  print('sigle digit no'+str(no))
+... else:
+...  print(multi digit no'+str(no))
+  File "<stdin>", line 4
+    print(multi digit no'+str(no))
+                ^
+SyntaxError: invalid syntax
+>>> if(no<10):
+...  print('sigle digit no'+str(no))
+... else:
+...  print('multi digit no'+str(no))
+...
+multi digit no123
+>>> no=9
+>>> if(no<10):
+...  print('single digit no'+str(no))
+... else:
+...  print('multi digit no'+str(no))
+...
+single digit no9
+>>> no=789
+>>>  if(no<10):
+  File "<stdin>", line 1
+    if(no<10):
+    ^
+IndentationError: unexpected indent
+>>> no=789
+>>> if(no<10):
+...  print('single digit no'+str(no))
+... elif(no<100):
+...  print('doublee digit no'+str(no))
+... elif(no<1000):
+...  print('triplee digit no'+str(no))
+... elif(no<10000):
+...  print('multi digit no'+str(no))
+... else
+  File "<stdin>", line 9
+    else
+       ^
+SyntaxError: invalid syntax
+>>> no=789
+>>> if(no<10):
+...  print('single digit no'+str(no))
+... elif(no<100):
+...  print('doublee digit no'+str(no))
+... elif(no<1000):
+...  print('triplee digit no'+str(no))
+... elif(no<10000):
+...  print('multi digit no'+str(no))
+... else:
+...  print('four digit no'+str(no))
+...
+triplee digit no789
+>>> friends=['rama','ramya','mounika','nethra']
+>>> friends[2]
+'mounika'
+>>> friends[4]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list index out of range
+>>> for name in friends:
+...  print(name)
+...
+rama
+ramya
+mounika
+nethra
+>>> name=input("what is your name")
+what is your name ramyasri
+>>> print(name)
+ ramyasri
+>>> a,b=0,1
+>>> n=14
+>>>  while(a < n):
+  File "<stdin>", line 1
+    while(a < n):
+    ^
+IndentationError: unexpected indent
+>>> a,b=0,1
+>>> n=14
+>>> while(a<n):
+...  print(a,end='')
+... a,b =b,a+b
+  File "<stdin>", line 3
+    a,b =b,a+b
+    ^
+SyntaxError: invalid syntax
+>>> a,b=0,1
+>>> n=14
+>>> while(a<n):
+...  print(a,end='')
+... a, b =b,a+b
+  File "<stdin>", line 3
+    a, b =b,a+b
+    ^
+SyntaxError: invalid syntax
+>>> def calculator(no):
+... if(no>100):
+  File "<stdin>", line 2
+    if(no>100):
+    ^
+IndentationError: expected an indented block
+>>> def calculator(no):
+...  if(no>100):
+...    print(no*no)
+... else:
+  File "<stdin>", line 4
+    else:
+    ^
+SyntaxError: invalid syntax
+>>> def calculator(no):
+...  if(no>100):
+...    print(no*no)
+...  else:
+...    print(no+no)
+...
+>>> calculate(200)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'calculate' is not defined
+>>> def calculate(no):
+...  if(no>100):
+...    print(no*no)
+...  else:
+...    print(no+no)
+...
+>>> calculate(200)
+40000
+>>> calculat(90)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'calculat' is not defined
+>>> defhellofunction(n,m):
+  File "<stdin>", line 1
+    defhellofunction(n,m):
+                         ^
+SyntaxError: invalid syntax
+>>> class product:
+... def setproduct(self.name,price,qty):
+  File "<stdin>", line 2
+    def setproduct(self.name,price,qty):
+    ^
+IndentationError: expected an indented block
+>>> class product:
+...  def setproduct(self.name,price,qty):
+  File "<stdin>", line 2
+    def setproduct(self.name,price,qty):
+                       ^
+SyntaxError: invalid syntax
+>>> class product:
+...  def setproduct(self,name,price,qty):
+...     self.name=name
+...     self.price=price
+...     self.qty=qty
+... def getproduct(self):
+  File "<stdin>", line 6
+    def getproduct(self):
+    ^
+SyntaxError: invalid syntax
+>>> class product:
+...  def setproduct(self,name,price,qty):
+...     self.name=name
+...     self.price=price
+...     self.qty=qty
+...  def getproduct(self):
+...     print(self.name)
+...     print(self.price)
+...     print(self.qty)
+...
+>>> prd = product()
+>>> prd.setproduct('cake',400.5)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: setproduct() missing 1 required positional argument: 'qty'
+>>> f=open('//home//ramya//mycontent.txt')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: '//home//ramya//mycontent.txt'
+>>> exit()
+ramyasri@DESKTOP-007FPGI:~$ pmap
+
+Usage:
+ pmap [options] PID [PID ...]
+
+Options:
+ -x, --extended              show details
+ -X                          show even more details
+            WARNING: format changes according to /proc/PID/smaps
+ -XX                         show everything the kernel provides
+ -c, --read-rc               read the default rc
+ -C, --read-rc-from=<file>   read the rc from file
+ -n, --create-rc             create new default rc
+ -N, --create-rc-to=<file>   create new rc to file
+            NOTE: pid arguments are not allowed with -n, -N
+ -d, --device                show the device format
+ -q, --quiet                 do not display header and footer
+ -p, --show-path             show path in the mapping
+ -A, --range=<low>[,<high>]  limit results to the given range
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see pmap(1).
+ramyasri@DESKTOP-007FPGI:~$ top
+top - 13:50:15 up  4:15,  0 users,  load average: 4.33, 3.87, 3.73
+Tasks:  10 total,   1 running,   9 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.1 us,  0.6 sy,  0.0 ni, 68.7 id, 29.3 wa,  0.0 hi,  0.4 si,  0.0 st
+MiB Mem :   6150.4 total,   1679.5 free,   1492.0 used,   2979.0 buff/cache
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   4046.2 avail Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  135 root      20   0 1679824  33508  13732 S   1.3   0.5   0:19.18 docker-desktop-
+    1 root      20   0     900    524    464 S   0.0   0.0   0:00.02 init
+  133 root      20   0     900     80     20 S   0.0   0.0   0:00.00 init
+  134 root      20   0     900     80     20 S   0.0   0.0   0:00.01 init
+  146 root      20   0     900     80     20 S   0.0   0.0   0:00.00 init
+  147 ramyasri  20   0  764776  46460  28716 S   0.0   0.7   0:01.43 docker
+  198 root      20   0     900     80     20 S   0.0   0.0   0:00.00 init
+  199 root      20   0     900     80     20 S   0.0   0.0   0:00.63 init
+  200 ramyasri  20   0   10144   5064   3316 S   0.0   0.1   0:00.28 bash
+  355 ramyasri  20   0   10880   3680   3164 R   0.0   0.1   0:00.05 top
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ramyasri@DESKTOP-007FPGI:~$ q
+
+Command 'q' not found, but can be installed with:
+
+sudo apt install python3-q-text-as-data
+
+ramyasri@DESKTOP-007FPGI:~$ last
+
+wtmp begins Thu Dec 16 19:06:39 2021
+ramyasri@DESKTOP-007FPGI:~$ ps
+ramyasri@DESKTOP-007FPGI:~$
+ramyasri@DESKTOP-007FPGI:~$
+ramyasri@DESKTOP-007FPGI:~$
+ramyasri@DESKTOP-007FPGI:~$ ps
+ramyasri@DESKTOP-007FPGI:~$
+ramyasri@DESKTOP-007FPGI:~$
+ramyasri@DESKTOP-007FPGI:~$
+ramyasri@DESKTOP-007FPGI:~$ info
+ramyasri@DESKTOP-007FPGI:~$ ps
+  PID TTY          TIME CMD
+  200 pts/2    00:00:00 bash
+  371 pts/2    00:00:00 ps
+ramyasri@DESKTOP-007FPGI:~$ env
+SHELL=/bin/bash
+WSL_DISTRO_NAME=Ubuntu-20.04
+NAME=DESKTOP-007FPGI
+PWD=/home/ramyasri
+LOGNAME=ramyasri
+MOTD_SHOWN=update-motd
+HOME=/home/ramyasri
+LANG=C.UTF-8
+WSL_INTEROP=/run/WSL/199_interop
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+LESSCLOSE=/usr/bin/lesspipe %s %s
+TERM=xterm-256color
+LESSOPEN=| /usr/bin/lesspipe %s
+USER=ramyasri
+SHLVL=1
+WSLENV=
+XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04onWindows_2004.2021.825.0_x64__79rhkp1fndgsc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/himav/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/himav/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin
+HOSTTYPE=x86_64
+_=/usr/bin/env
+OLDPWD=/
+ramyasri@DESKTOP-007FPGI:~$ man df
+ramyasri@DESKTOP-007FPGI:~$ sudo apt update
+[sudo] password for ramyasri:
+Sorry, try again.
+[sudo] password for ramyasri:
+Sorry, try again.
+[sudo] password for ramyasri:
+sudo: 3 incorrect password attempts
+ramyasri@DESKTOP-007FPGI:~$ ansible all -m ping --ask -all
+usage: ansible [-h] [--version] [-v] [-b] [--become-method BECOME_METHOD] [--become-user BECOME_USER] [-K] [-i INVENTORY]
+               [--list-hosts] [-l SUBSET] [-P POLL_INTERVAL] [-B SECONDS] [-o] [-t TREE] [-k] [--private-key PRIVATE_KEY_FILE]
+               [-u REMOTE_USER] [-c CONNECTION] [-T TIMEOUT] [--ssh-common-args SSH_COMMON_ARGS] [--sftp-extra-args SFTP_EXTRA_ARGS]
+               [--scp-extra-args SCP_EXTRA_ARGS] [--ssh-extra-args SSH_EXTRA_ARGS] [-C] [--syntax-check] [-D] [-e EXTRA_VARS]
+               [--vault-id VAULT_IDS] [--ask-vault-password | --vault-password-file VAULT_PASSWORD_FILES] [-f FORKS]
+               [-M MODULE_PATH] [--playbook-dir BASEDIR] [--task-timeout TASK_TIMEOUT] [-a MODULE_ARGS] [-m MODULE_NAME]
+               pattern
+ansible: error: ambiguous option: --ask could match --ask-become-pass, --ask-pass, --ask-vault-password, --ask-vault-pass
+
+usage: ansible [-h] [--version] [-v] [-b] [--become-method BECOME_METHOD] [--become-user BECOME_USER] [-K] [-i INVENTORY]
+               [--list-hosts] [-l SUBSET] [-P POLL_INTERVAL] [-B SECONDS] [-o] [-t TREE] [-k] [--private-key PRIVATE_KEY_FILE]
+               [-u REMOTE_USER] [-c CONNECTION] [-T TIMEOUT] [--ssh-common-args SSH_COMMON_ARGS] [--sftp-extra-args SFTP_EXTRA_ARGS]
+               [--scp-extra-args SCP_EXTRA_ARGS] [--ssh-extra-args SSH_EXTRA_ARGS] [-C] [--syntax-check] [-D] [-e EXTRA_VARS]
+               [--vault-id VAULT_IDS] [--ask-vault-password | --vault-password-file VAULT_PASSWORD_FILES] [-f FORKS]
+               [-M MODULE_PATH] [--playbook-dir BASEDIR] [--task-timeout TASK_TIMEOUT] [-a MODULE_ARGS] [-m MODULE_NAME]
+               pattern
+
+Define and run a single task 'playbook' against a set of hosts
+
+positional arguments:
+  pattern               host pattern
+
+optional arguments:
+  --ask-vault-password, --ask-vault-pass
+                        ask for vault password
+  --list-hosts          outputs a list of matching hosts; does not execute anything else
+  --playbook-dir BASEDIR
+                        Since this tool does not use playbooks, use this as a substitute playbook directory.This sets the relative
+                        path for many features including roles/ group_vars/ etc.
+  --syntax-check        perform a syntax check on the playbook, but do not execute it
+  --task-timeout TASK_TIMEOUT
+                        set task timeout limit in seconds, must be positive integer.
+  --vault-id VAULT_IDS  the vault identity to use
+  --vault-password-file VAULT_PASSWORD_FILES, --vault-pass-file VAULT_PASSWORD_FILES
+                        vault password file
+  --version             show program's version number, config file location, configured module search path, module location,
+                        executable location and exit
+  -B SECONDS, --background SECONDS
+                        run asynchronously, failing after X seconds (default=N/A)
+  -C, --check           don't make any changes; instead, try to predict some of the changes that may occur
+  -D, --diff            when changing (small) files and templates, show the differences in those files; works great with --check
+  -M MODULE_PATH, --module-path MODULE_PATH
+                        prepend colon-separated path(s) to module library
+                        (default=~/.ansible/plugins/modules:/usr/share/ansible/plugins/modules)
+  -P POLL_INTERVAL, --poll POLL_INTERVAL
+                        set the poll interval if using -B (default=15)
+  -a MODULE_ARGS, --args MODULE_ARGS
+                        The action's options in space separated k=v format: -a 'opt1=val1 opt2=val2'
+  -e EXTRA_VARS, --extra-vars EXTRA_VARS
+                        set additional variables as key=value or YAML/JSON, if filename prepend with @
+  -f FORKS, --forks FORKS
+                        specify number of parallel processes to use (default=5)
+  -h, --help            show this help message and exit
+  -i INVENTORY, --inventory INVENTORY, --inventory-file INVENTORY
+                        specify inventory host path or comma separated host list. --inventory-file is deprecated
+  -l SUBSET, --limit SUBSET
+                        further limit selected hosts to an additional pattern
+  -m MODULE_NAME, --module-name MODULE_NAME
+                        Name of the action to execute (default=command)
+  -o, --one-line        condense output
+  -t TREE, --tree TREE  log output to this directory
+  -v, --verbose         verbose mode (-vvv for more, -vvvv to enable connection debugging)
+
+Privilege Escalation Options:
+  control how and which user you become as on target hosts
+
+  --become-method BECOME_METHOD
+                        privilege escalation method to use (default=sudo), use `ansible-doc -t become -l` to list valid choices.
+  --become-user BECOME_USER
+                        run operations as this user (default=root)
+  -K, --ask-become-pass
+                        ask for privilege escalation password
+  -b, --become          run operations with become (does not imply password prompting)
+
+Connection Options:
+  control as whom and how to connect to hosts
+
+  --private-key PRIVATE_KEY_FILE, --key-file PRIVATE_KEY_FILE
+                        use this file to authenticate the connection
+  --scp-extra-args SCP_EXTRA_ARGS
+                        specify extra arguments to pass to scp only (e.g. -l)
+  --sftp-extra-args SFTP_EXTRA_ARGS
+                        specify extra arguments to pass to sftp only (e.g. -f, -l)
+  --ssh-common-args SSH_COMMON_ARGS
+                        specify common arguments to pass to sftp/scp/ssh (e.g. ProxyCommand)
+  --ssh-extra-args SSH_EXTRA_ARGS
+                        specify extra arguments to pass to ssh only (e.g. -R)
+  -T TIMEOUT, --timeout TIMEOUT
+                        override the connection timeout in seconds (default=10)
+  -c CONNECTION, --connection CONNECTION
+                        connection type to use (default=smart)
+  -k, --ask-pass        ask for connection password
+  -u REMOTE_USER, --user REMOTE_USER
+                        connect as this user (default=None)
+
+Some actions do not make sense in Ad-Hoc (include, meta, etc)
+ ramyasri@DESKTOP-007FPGI:~$ sudo apt install python3-argcomplete
+[sudo] password for ramyasri:
+Sorry, try again.
+[sudo] password for ramyasri:
+
+Sorry, try again.
+[sudo] password for ramyasri:
+sudo: 3 incorrect password attempts
+ramyasri@DESKTOP-007FPGI:~$ sudo activate-global-python-argcomplete
+[sudo] password for ramyasri:
+
+Sorry, try again.
+[sudo] password for ramyasri:
+Sorry, try again.
+[sudo] password for ramyasri:
+sudo: 3 incorrect password attempts
+ramyasri@DESKTOP-007FPGI:~$ bash --version
+GNU bash, version 5.0.17(1)-release (x86_64-pc-linux-gnu)
+Copyright (C) 2019 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+
+This is free software; you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+ramyasri@DESKTOP-007FPGI:~$ echo shell
+shell
+ramyasri@DESKTOP-007FPGI:~$ echo hello world
+hello world
+ramyasri@DESKTOP-007FPGI:~$ ls
+ABCimpex   Abclmpex        allcontent.txt    decision.sh   file3          mix.txt         ramya.txt     temp       zinginfor.txt
+ABclmpex   Galaxyinfo.txt  allperms.sh       def           ifelse.sh      myemptfile      ramya.yml     tempramya
+Abcd       Hashmum         args.sh           efgh          initialZing    mytext.txt      ramyasrirole  timjag
+Abcdopex   InitialZink     array             emptyfile.sh  input.sh       nn_playbook     reading.sh    user
+Abcimplex  Zinginfor.txt   backupmytext.txt  file          intialHashmum  outputfile.txt  sample.yml    user1
+Abcimplx   abcd            bootcamp          file1         loop.sh        ramya           spcl.sh       usr
+Abclmpet   add             bootcamp1         file2         manu.txt       ramya.file      sys           zing
+ramyasri@DESKTOP-007FPGI:~$ nano allperms.sh
+ramyasri@DESKTOP-007FPGI:~$ cat allperms.sh
+#!/bin/bash
+echo welcome to the world
+
+
+ramyasri@DESKTOP-007FPGI:~$ chmod +x allperms.sh
+chmod: changing permissions of 'allperms.sh': Operation not permitted
+ramyasri@DESKTOP-007FPGI:~$ ./allperms.sh
+-bash: ./allperms.sh: Permission denied
+ramyasri@DESKTOP-007FPGI:~$ nano input.sh
+ramyasri@DESKTOP-007FPGI:~$ cat input.sh
+#!/bin/bash
+Name = Ramya
+Role = Associate software engineer
+Salary = 20000
+echo($Ramya, $Associate software engineer, $20000)
+
+ramyasri@DESKTOP-007FPGI:~$ nano loop.sh
+ramyasri@DESKTOP-007FPGI:~$ cat loop.sh
+#!/bin/bash
+for((c=1;c<5;c++))
+do
+        echo "enter some no"
+        read no
+        echo "welcome $c time $no"
+done
+ramyasri@DESKTOP-007FPGI:~$ apt list --upgradable
+Listing... Done
+accountsservice/focal-updates,focal-security 0.6.55-0ubuntu12~20.04.5 amd64 [upgradable from: 0.6.55-0ubuntu12~20.04.4]
+alsa-ucm-conf/focal-updates 1.2.2-1ubuntu0.11 all [upgradable from: 1.2.2-1ubuntu0.9]
+ansible-core/focal 2.12.1-1ppa~focal all [upgradable from: 2.11.7-1ppa~focal]
+ansible/focal 5.1.0-1ppa~focal all [upgradable from: 4.9.0-1ppa~focal]
+apport/focal-updates,focal-security 2.20.11-0ubuntu27.21 all [upgradable from: 2.20.11-0ubuntu27.18]
+bind9-dnsutils/focal-updates,focal-security 1:9.16.1-0ubuntu2.9 amd64 [upgradable from: 1:9.16.1-0ubuntu2.8]
+bind9-host/focal-updates,focal-security 1:9.16.1-0ubuntu2.9 amd64 [upgradable from: 1:9.16.1-0ubuntu2.8]
+bind9-libs/focal-updates,focal-security 1:9.16.1-0ubuntu2.9 amd64 [upgradable from: 1:9.16.1-0ubuntu2.8]
+busybox-initramfs/focal-updates,focal-security 1:1.30.1-4ubuntu6.4 amd64 [upgradable from: 1:1.30.1-4ubuntu6.3]
+busybox-static/focal-updates,focal-security 1:1.30.1-4ubuntu6.4 amd64 [upgradable from: 1:1.30.1-4ubuntu6.3]
+ca-certificates/focal-updates,focal-security 20210119~20.04.2 all [upgradable from: 20210119~20.04.1]
+cloud-init/focal-updates 21.4-0ubuntu1~20.04.1 all [upgradable from: 21.2-3-g899bfaa9-0ubuntu2~20.04.1]
+cloud-initramfs-copymods/focal-updates 0.45ubuntu2 all [upgradable from: 0.45ubuntu1]
+cloud-initramfs-dyn-netconf/focal-updates 0.45ubuntu2 all [upgradable from: 0.45ubuntu1]
+cpio/focal-updates,focal-security 2.13+dfsg-2ubuntu0.3 amd64 [upgradable from: 2.13+dfsg-2]
+curl/focal-updates,focal-security 7.68.0-1ubuntu2.7 amd64 [upgradable from: 7.68.0-1ubuntu2.6]
+distro-info-data/focal-updates,focal-security 0.43ubuntu1.9 all [upgradable from: 0.43ubuntu1.6]
+git-man/focal-updates,focal-security 1:2.25.1-1ubuntu3.2 all [upgradable from: 1:2.25.1-1ubuntu3.1]
+libaccountsservice0/focal-updates,focal-security 0.6.55-0ubuntu12~20.04.5 amd64 [upgradable from: 0.6.55-0ubuntu12~20.04.4]
+libasound2-data/focal-updates 1.2.2-2.1ubuntu2.5 all [upgradable from: 1.2.2-2.1ubuntu2.4]
+libasound2/focal-updates 1.2.2-2.1ubuntu2.5 amd64 [upgradable from: 1.2.2-2.1ubuntu2.4]
+libcurl3-gnutls/focal-updates,focal-security 7.68.0-1ubuntu2.7 amd64 [upgradable from: 7.68.0-1ubuntu2.6]
+libcurl4/focal-updates,focal-security 7.68.0-1ubuntu2.7 amd64 [upgradable from: 7.68.0-1ubuntu2.6]
+libdrm-amdgpu1/focal-updates 2.4.105-3~20.04.2 amd64 [upgradable from: 2.4.105-3~20.04.1]
+libdrm-common/focal-updates 2.4.105-3~20.04.2 all [upgradable from: 2.4.105-3~20.04.1]
+libdrm-intel1/focal-updates 2.4.105-3~20.04.2 amd64 [upgradable from: 2.4.105-3~20.04.1]
+libdrm-nouveau2/focal-updates 2.4.105-3~20.04.2 amd64 [upgradable from: 2.4.105-3~20.04.1]
+libdrm-radeon1/focal-updates 2.4.105-3~20.04.2 amd64 [upgradable from: 2.4.105-3~20.04.1]
+libdrm2/focal-updates 2.4.105-3~20.04.2 amd64 [upgradable from: 2.4.105-3~20.04.1]
+libgcrypt20/focal-updates,focal-security 1.8.5-5ubuntu1.1 amd64 [upgradable from: 1.8.5-5ubuntu1]
+libgl1-mesa-dri/focal-updates 21.0.3-0ubuntu0.3~20.04.5 amd64 [upgradable from: 21.0.3-0ubuntu0.3~20.04.1]
+libglapi-mesa/focal-updates 21.0.3-0ubuntu0.3~20.04.5 amd64 [upgradable from: 21.0.3-0ubuntu0.3~20.04.1]
+libglx-mesa0/focal-updates 21.0.3-0ubuntu0.3~20.04.5 amd64 [upgradable from: 21.0.3-0ubuntu0.3~20.04.1]
+libicu66/focal-updates,focal-security 66.1-2ubuntu2.1 amd64 [upgradable from: 66.1-2ubuntu2]
+libllvm12/focal-updates 1:12.0.0-3ubuntu1~20.04.4 amd64 [upgradable from: 1:12.0.0-3ubuntu1~20.04.3]
+libnetplan0/focal-updates 0.103-0ubuntu5~20.04.5 amd64 [upgradable from: 0.102-0ubuntu1~20.04.2]
+libnss-systemd/focal-updates 245.4-4ubuntu3.13 amd64 [upgradable from: 245.4-4ubuntu3.11]
+libnss3/focal-updates,focal-security 2:3.49.1-1ubuntu1.6 amd64 [upgradable from: 2:3.49.1-1ubuntu1.5]
+libntfs-3g883/focal-updates,focal-security 1:2017.3.23AR.3-3ubuntu1.1 amd64 [upgradable from: 1:2017.3.23AR.3-3ubuntu1]
+libpam-modules-bin/focal-updates 1.3.1-5ubuntu4.3 amd64 [upgradable from: 1.3.1-5ubuntu4.2]
+libpam-modules/focal-updates 1.3.1-5ubuntu4.3 amd64 [upgradable from: 1.3.1-5ubuntu4.2]
+libpam-runtime/focal-updates 1.3.1-5ubuntu4.3 all [upgradable from: 1.3.1-5ubuntu4.2]
+libpam-systemd/focal-updates 245.4-4ubuntu3.13 amd64 [upgradable from: 245.4-4ubuntu3.11]
+libpam0g/focal-updates 1.3.1-5ubuntu4.3 amd64 [upgradable from: 1.3.1-5ubuntu4.2]
+libprocps8/focal-updates 2:3.3.16-1ubuntu2.3 amd64 [upgradable from: 2:3.3.16-1ubuntu2.2]
+libpulse0/focal-updates 1:13.99.1-1ubuntu3.13 amd64 [upgradable from: 1:13.99.1-1ubuntu3.11]
+libpulsedsp/focal-updates 1:13.99.1-1ubuntu3.13 amd64 [upgradable from: 1:13.99.1-1ubuntu3.11]
+libpython3.8-minimal/focal-updates,focal-security 3.8.10-0ubuntu1~20.04.2 amd64 [upgradable from: 3.8.10-0ubuntu1~20.04]
+libpython3.8-stdlib/focal-updates,focal-security 3.8.10-0ubuntu1~20.04.2 amd64 [upgradable from: 3.8.10-0ubuntu1~20.04]
+libpython3.8/focal-updates,focal-security 3.8.10-0ubuntu1~20.04.2 amd64 [upgradable from: 3.8.10-0ubuntu1~20.04]
+libseccomp2/focal-updates,focal-security 2.5.1-1ubuntu1~20.04.2 amd64 [upgradable from: 2.5.1-1ubuntu1~20.04.1]
+libssh-4/focal-updates,focal-security 0.9.3-2ubuntu2.2 amd64 [upgradable from: 0.9.3-2ubuntu2.1]
+libssl1.1/focal-updates 1.1.1f-1ubuntu2.10 amd64 [upgradable from: 1.1.1f-1ubuntu2.5]
+libsystemd0/focal-updates 245.4-4ubuntu3.13 amd64 [upgradable from: 245.4-4ubuntu3.11]
+libtdb1/focal-updates,focal-security 1.4.3-0ubuntu0.20.04.1 amd64 [upgradable from: 1.4.2-3build1]
+libudev1/focal-updates 245.4-4ubuntu3.13 amd64 [upgradable from: 245.4-4ubuntu3.11]
+libudisks2-0/focal-updates 2.8.4-1ubuntu2 amd64 [upgradable from: 2.8.4-1ubuntu1]
+linux-base/focal-updates 4.5ubuntu3.7 all [upgradable from: 4.5ubuntu3.6]
+mesa-vulkan-drivers/focal-updates 21.0.3-0ubuntu0.3~20.04.5 amd64 [upgradable from: 21.0.3-0ubuntu0.3~20.04.1]
+netplan.io/focal-updates 0.103-0ubuntu5~20.04.5 amd64 [upgradable from: 0.102-0ubuntu1~20.04.2]
+ntfs-3g/focal-updates,focal-security 1:2017.3.23AR.3-3ubuntu1.1 amd64 [upgradable from: 1:2017.3.23AR.3-3ubuntu1]
+open-vm-tools/focal-updates 2:11.3.0-2ubuntu0~ubuntu20.04.2 amd64 [upgradable from: 2:11.0.5-4]
+openssl/focal-updates 1.1.1f-1ubuntu2.10 amd64 [upgradable from: 1.1.1f-1ubuntu2.5]
+overlayroot/focal-updates 0.45ubuntu2 all [upgradable from: 0.45ubuntu1]
+procps/focal-updates 2:3.3.16-1ubuntu2.3 amd64 [upgradable from: 2:3.3.16-1ubuntu2.2]
+pulseaudio-utils/focal-updates 1:13.99.1-1ubuntu3.13 amd64 [upgradable from: 1:13.99.1-1ubuntu3.11]
+python-apt-common/focal-updates 2.0.0ubuntu0.20.04.6 all [upgradable from: 2.0.0ubuntu0.20.04.5]
+python3-apport/focal-updates,focal-security 2.20.11-0ubuntu27.21 all [upgradable from: 2.20.11-0ubuntu27.18]
+python3-apt/focal-updates 2.0.0ubuntu0.20.04.6 amd64 [upgradable from: 2.0.0ubuntu0.20.04.5]
+python3-problem-report/focal-updates,focal-security 2.20.11-0ubuntu27.21 all [upgradable from: 2.20.11-0ubuntu27.18]
+python3-software-properties/focal-updates 0.99.9.8 all [upgradable from: 0.98.9.5]
+python3-update-manager/focal-updates 1:20.04.10.9 all [upgradable from: 1:20.04.10.7]
+python3.8-minimal/focal-updates,focal-security 3.8.10-0ubuntu1~20.04.2 amd64 [upgradable from: 3.8.10-0ubuntu1~20.04]
+python3.8/focal-updates,focal-security 3.8.10-0ubuntu1~20.04.2 amd64 [upgradable from: 3.8.10-0ubuntu1~20.04]
+rsync/focal-updates 3.1.3-8ubuntu0.1 amd64 [upgradable from: 3.1.3-8]
+snapd/focal-updates 2.51.1+20.04ubuntu2 amd64 [upgradable from: 2.49.2+20.04]
+software-properties-common/focal-updates 0.99.9.8 all [upgradable from: 0.98.9.5]
+squashfs-tools/focal-updates,focal-security 1:4.4-1ubuntu0.3 amd64 [upgradable from: 1:4.4-1]
+systemd-sysv/focal-updates 245.4-4ubuntu3.13 amd64 [upgradable from: 245.4-4ubuntu3.11]
+systemd-timesyncd/focal-updates 245.4-4ubuntu3.13 amd64 [upgradable from: 245.4-4ubuntu3.11]
+systemd/focal-updates 245.4-4ubuntu3.13 amd64 [upgradable from: 245.4-4ubuntu3.11]
+tzdata/focal-updates,focal-security 2021e-0ubuntu0.20.04 all [upgradable from: 2021a-0ubuntu0.20.04]
+ubuntu-advantage-tools/focal-updates 27.4.2~20.04.1 amd64 [upgradable from: 27.2.2~20.04.1]
+udev/focal-updates 245.4-4ubuntu3.13 amd64 [upgradable from: 245.4-4ubuntu3.11]
+udisks2/focal-updates 2.8.4-1ubuntu2 amd64 [upgradable from: 2.8.4-1ubuntu1]
+ufw/focal-updates 0.36-6ubuntu1 all [upgradable from: 0.36-6]
+update-manager-core/focal-updates 1:20.04.10.9 all [upgradable from: 1:20.04.10.7]
+update-notifier-common/focal-updates 3.192.30.10 all [upgradable from: 3.192.30.9]
+vim-common/focal-updates,focal-security 2:8.1.2269-1ubuntu5.4 all [upgradable from: 2:8.1.2269-1ubuntu5]
+vim-runtime/focal-updates,focal-security 2:8.1.2269-1ubuntu5.4 all [upgradable from: 2:8.1.2269-1ubuntu5]
+vim-tiny/focal-updates,focal-security 2:8.1.2269-1ubuntu5.4 amd64 [upgradable from: 2:8.1.2269-1ubuntu5]
+vim/focal-updates,focal-security 2:8.1.2269-1ubuntu5.4 amd64 [upgradable from: 2:8.1.2269-1ubuntu5]
+wget/focal-updates 1.20.3-1ubuntu2 amd64 [upgradable from: 1.20.3-1ubuntu1]
+xxd/focal-updates,focal-security 2:8.1.2269-1ubuntu5.4 amd64 [upgradable from: 2:8.1.2269-1ubuntu5]
+ramyasri@DESKTOP-007FPGI:~$ ls
+ABCimpex   Abclmpex        allcontent.txt    decision.sh   file3          mix.txt         ramya.txt     temp       zinginfor.txt
+ABclmpex   Galaxyinfo.txt  allperms.sh       def           ifelse.sh      myemptfile      ramya.yml     tempramya
+Abcd       Hashmum         args.sh           efgh          initialZing    mytext.txt      ramyasrirole  timjag
+Abcdopex   InitialZink     array             emptyfile.sh  input.sh       nn_playbook     reading.sh    user
+Abcimplex  Zinginfor.txt   backupmytext.txt  file          intialHashmum  outputfile.txt  sample.yml    user1
+Abcimplx   abcd            bootcamp          file1         loop.sh        ramya           spcl.sh       usr
+Abclmpet   add             bootcamp1         file2         manu.txt       ramya.file      sys           zing
+ramyasri@DESKTOP-007FPGI:~$ nano args.sh
+ramyasri@DESKTOP-007FPGI:~$ cat args.sh
+#!/bin/bash
+ echo "in order,$1 $2 $3"
+ echo "Reverse, $3 $2 $1"
+
+ramyasri@DESKTOP-007FPGI:~$ nano
+ramyasri@DESKTOP-007FPGI:~$ nano
+
+
+Use "fg" to return to nano.
+
+[1]+  Stopped                 nano
+ramyasri@DESKTOP-007FPGI:~$ nano
+ramyasri@DESKTOP-007FPGI:~$ chmod 774 dot.sh
+ramyasri@DESKTOP-007FPGI:~$ ./dot.sh 23 5 19 20
+./dot.sh: line 1: hello: command not found
+ramyasri@DESKTOP-007FPGI:~$ bash -x ./args.sh
++ echo 'in order,  '
+in order,
++ echo 'Reverse,   '
+Reverse,
+ramyasri@DESKTOP-007FPGI:~$ nano spcl.sh
+ramyasri@DESKTOP-007FPGI:~$ cat spcl.sh
+#!/bin/bash
+echo "Enter a pet animal"
+read animal
+if[ $animal = cat ]
+     then echo "i love cats"
+elif[ $animal = dog ]
+     then echo "i like $animal"
+elif[ $animal = cow ]
+     then echo "i love cow"
+     else echo "i can like any $animal"
+fi
+
+ramyasri@DESKTOP-007FPGI:~$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ramyasri@DESKTOP-007FPGI:~$ ls
+ABCimpex   Abclmpex        allcontent.txt    decision.sh   file2          manu.txt        ramya.file    sys        zing
+ABclmpex   Galaxyinfo.txt  allperms.sh       def           file3          mix.txt         ramya.txt     temp       zinginfor.txt
+Abcd       Hashmum         args.sh           dot.sh        ifelse.sh      myemptfile      ramya.yml     tempramya
+Abcdopex   InitialZink     array             efgh          initialZing    mytext.txt      ramyasrirole  timjag
+Abcimplex  Zinginfor.txt   backupmytext.txt  emptyfile.sh  input.sh       nn_playbook     reading.sh    user
+Abcimplx   abcd            bootcamp          file          intialHashmum  outputfile.txt  sample.yml    user1
+Abclmpet   add             bootcamp1         file1         loop.sh        ramya           spcl.sh       usr
+ramyasri@DESKTOP-007FPGI:~$ ansible -h
+usage: ansible [-h] [--version] [-v] [-b] [--become-method BECOME_METHOD] [--become-user BECOME_USER] [-K] [-i INVENTORY]
+               [--list-hosts] [-l SUBSET] [-P POLL_INTERVAL] [-B SECONDS] [-o] [-t TREE] [-k] [--private-key PRIVATE_KEY_FILE]
+               [-u REMOTE_USER] [-c CONNECTION] [-T TIMEOUT] [--ssh-common-args SSH_COMMON_ARGS] [--sftp-extra-args SFTP_EXTRA_ARGS]
+               [--scp-extra-args SCP_EXTRA_ARGS] [--ssh-extra-args SSH_EXTRA_ARGS] [-C] [--syntax-check] [-D] [-e EXTRA_VARS]
+               [--vault-id VAULT_IDS] [--ask-vault-password | --vault-password-file VAULT_PASSWORD_FILES] [-f FORKS]
+               [-M MODULE_PATH] [--playbook-dir BASEDIR] [--task-timeout TASK_TIMEOUT] [-a MODULE_ARGS] [-m MODULE_NAME]
+               pattern
+
+Define and run a single task 'playbook' against a set of hosts
+
+positional arguments:
+  pattern               host pattern
+
+optional arguments:
+  --ask-vault-password, --ask-vault-pass
+                        ask for vault password
+  --list-hosts          outputs a list of matching hosts; does not execute anything else
+  --playbook-dir BASEDIR
+                        Since this tool does not use playbooks, use this as a substitute playbook directory.This sets the relative
+                        path for many features including roles/ group_vars/ etc.
+  --syntax-check        perform a syntax check on the playbook, but do not execute it
+  --task-timeout TASK_TIMEOUT
+                        set task timeout limit in seconds, must be positive integer.
+  --vault-id VAULT_IDS  the vault identity to use
+  --vault-password-file VAULT_PASSWORD_FILES, --vault-pass-file VAULT_PASSWORD_FILES
+                        vault password file
+  --version             show program's version number, config file location, configured module search path, module location,
+                        executable location and exit
+  -B SECONDS, --background SECONDS
+                        run asynchronously, failing after X seconds (default=N/A)
+  -C, --check           don't make any changes; instead, try to predict some of the changes that may occur
+  -D, --diff            when changing (small) files and templates, show the differences in those files; works great with --check
+  -M MODULE_PATH, --module-path MODULE_PATH
+                        prepend colon-separated path(s) to module library
+                        (default=~/.ansible/plugins/modules:/usr/share/ansible/plugins/modules)
+  -P POLL_INTERVAL, --poll POLL_INTERVAL
+                        set the poll interval if using -B (default=15)
+  -a MODULE_ARGS, --args MODULE_ARGS
+                        The action's options in space separated k=v format: -a 'opt1=val1 opt2=val2'
+  -e EXTRA_VARS, --extra-vars EXTRA_VARS
+                        set additional variables as key=value or YAML/JSON, if filename prepend with @
+  -f FORKS, --forks FORKS
+                        specify number of parallel processes to use (default=5)
+  -h, --help            show this help message and exit
+  -i INVENTORY, --inventory INVENTORY, --inventory-file INVENTORY
+                        specify inventory host path or comma separated host list. --inventory-file is deprecated
+  -l SUBSET, --limit SUBSET
+                        further limit selected hosts to an additional pattern
+  -m MODULE_NAME, --module-name MODULE_NAME
+                        Name of the action to execute (default=command)
+  -o, --one-line        condense output
+  -t TREE, --tree TREE  log output to this directory
+  -v, --verbose         verbose mode (-vvv for more, -vvvv to enable connection debugging)
+
+Privilege Escalation Options:
+  control how and which user you become as on target hosts
+
+  --become-method BECOME_METHOD
+                        privilege escalation method to use (default=sudo), use `ansible-doc -t become -l` to list valid choices.
+  --become-user BECOME_USER
+                        run operations as this user (default=root)
+  -K, --ask-become-pass
+                        ask for privilege escalation password
+  -b, --become          run operations with become (does not imply password prompting)
+
+Connection Options:
+  control as whom and how to connect to hosts
+
+  --private-key PRIVATE_KEY_FILE, --key-file PRIVATE_KEY_FILE
+                        use this file to authenticate the connection
+  --scp-extra-args SCP_EXTRA_ARGS
+                        specify extra arguments to pass to scp only (e.g. -l)
+  --sftp-extra-args SFTP_EXTRA_ARGS
+                        specify extra arguments to pass to sftp only (e.g. -f, -l)
+  --ssh-common-args SSH_COMMON_ARGS
+                        specify common arguments to pass to sftp/scp/ssh (e.g. ProxyCommand)
+  --ssh-extra-args SSH_EXTRA_ARGS
+                        specify extra arguments to pass to ssh only (e.g. -R)
+  -T TIMEOUT, --timeout TIMEOUT
+                        override the connection timeout in seconds (default=10)
+  -c CONNECTION, --connection CONNECTION
+                        connection type to use (default=smart)
+  -k, --ask-pass        ask for connection password
+  -u REMOTE_USER, --user REMOTE_USER
+                        connect as this user (default=None)
+
+Some actions do not make sense in Ad-Hoc (include, meta, etc)
+ramyasri@DESKTOP-007FPGI:~$ ansible --version
+ansible [core 2.11.7]
+  config file = /etc/ansible/ansible.cfg
+  configured module search path = ['/home/ramyasri/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3/dist-packages/ansible
+  ansible collection location = /home/ramyasri/.ansible/collections:/usr/share/ansible/collections
+  executable location = /usr/bin/ansible
+  python version = 3.8.10 (default, Jun  2 2021, 10:49:15) [GCC 9.4.0]
+  jinja version = 2.10.1
+  libyaml = True
+ramyasri@DESKTOP-007FPGI:~$ ansible all -m setup
+[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+ramyasri@DESKTOP-007FPGI:~$ ansible-galaxy -h
+usage: ansible-galaxy [-h] [--version] [-v] TYPE ...
+
+Perform various Role and Collection related operations.
+
+positional arguments:
+  TYPE
+    collection   Manage an Ansible Galaxy collection.
+    role         Manage an Ansible Galaxy role.
+
+optional arguments:
+  --version      show program's version number, config file location, configured module search path, module location, executable
+                 location and exit
+  -h, --help     show this help message and exit
+  -v, --verbose  verbose mode (-vvv for more, -vvvv to enable connection debugging)
+ramyasri@DESKTOP-007FPGI:~$ ansible-galaxy init --source --offline ramyarole
+usage: ansible-galaxy [-h] [--version] [-v] TYPE ...
+ansible-galaxy: error: unrecognized arguments: --source
+
+usage: ansible-galaxy [-h] [--version] [-v] TYPE ...
+
+Perform various Role and Collection related operations.
+
+positional arguments:
+  TYPE
+    collection   Manage an Ansible Galaxy collection.
+    role         Manage an Ansible Galaxy role.
+
+optional arguments:
+  --version      show program's version number, config file location, configured module search path, module location, executable
+                 location and exit
+  -h, --help     show this help message and exit
+  -v, --verbose  verbose mode (-vvv for more, -vvvv to enable connection debugging)
+ ramyasri@DESKTOP-007FPGI:~$ nano ramya.yml
+ramyasri@DESKTOP-007FPGI:~$ nano sample.yml
+ramyasri@DESKTOP-007FPGI:~$ tree ramyarole/
+ramyarole/ [error opening dir]
+
+0 directories, 0 files
+ramyasri@DESKTOP-007FPGI:~$ install tree
+install: missing destination file operand after 'tree'
+Try 'install --help' for more information.
+ramyasri@DESKTOP-007FPGI:~$ tree ramyarole
+ramyarole [error opening dir]
+
+0 directories, 0 files
+ramyasri@DESKTOP-007FPGI:~$ sudo apt install tree
+[sudo] password for ramyasri:
+Sorry, try again.
+[sudo] password for ramyasri:
+Sorry, try again.
+[sudo] password for ramyasri:
+sudo: 3 incorrect password attempts
+ramyasri@DESKTOP-007FPGI:~$ passwd ramyasri
+Changing password for ramyasri.
+Current password:
+passwd: Authentication token manipulation error
+passwd: password unchanged
+ramyasri@DESKTOP-007FPGI:~$ E
+E: command not found
+ramyasri@DESKTOP-007FPGI:~$ cd \ramyarole
+-bash: cd: ramyarole: No such file or directory
+ramyasri@DESKTOP-007FPGI:~$ ls
+ABCimpex   Abclmpex        allcontent.txt    decision.sh   file2          manu.txt        ramya.file    sys        zing
+ABclmpex   Galaxyinfo.txt  allperms.sh       def           file3          mix.txt         ramya.txt     temp       zinginfor.txt
+Abcd       Hashmum         args.sh           dot.sh        ifelse.sh      myemptfile      ramya.yml     tempramya
+Abcdopex   InitialZink     array             efgh          initialZing    mytext.txt      ramyasrirole  timjag
+Abcimplex  Zinginfor.txt   backupmytext.txt  emptyfile.sh  input.sh       nn_playbook     reading.sh    user
+Abcimplx   abcd            bootcamp          file          intialHashmum  outputfile.txt  sample.yml    user1
+Abclmpet   add             bootcamp1         file1         loop.sh        ramya           spcl.sh       usr
+ramyasri@DESKTOP-007FPGI:~$ nano ramya.yml
+ramyasri@DESKTOP-007FPGI:~$ cat ramya.yml
+---
+student:
+        name: jhon
+        rollno: 25
+        section: B
+        location: Warangal
+ramyasri@DESKTOP-007FPGI:~$ nano sampl.yml
+ramyasri@DESKTOP-007FPGI:~$ nano sample.yml
+ramyasri@DESKTOP-007FPGI:~$ cat sample.yml
+---
+- hosts: tomcat-node
+roles:
+    - {role: install-tomcat}
+    - {role: start-tomcat}
